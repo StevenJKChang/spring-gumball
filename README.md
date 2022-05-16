@@ -1,12 +1,36 @@
-# spring-gumball ci/cd example
+# CMPE 172 - Lab #10 Notes
 
-### This example demonstrates the following two GitHub Workflows.
+## DevOps CI/CD
 
-* https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-gradle
+### CI Workflow (Part 1)
 
-* https://github.com/google-github-actions/setup-gcloud/tree/master/example-workflows/gke
+##### Github Actions Build Spring Gumball
 
-### Build Dependencies
+![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/build.png)
 
-* Gradle 5.6
-* JDK 11
+### CD Workflow (Part 2)
+
+##### Service Accounts and Service Account Key
+
+![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/service-accounts.png)
+![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/service-key.png)
+
+##### Github Action Secrets
+
+![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/action-secrets.png)
+
+##### Github Actions - Trigger a CD Deployment by creating a new GitHub Release
+
+![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/releases.png)
+![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/build-and-deploy.png)
+![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/all-workflows.png)
+
+##### GKE Deployment Proof
+
+![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/deployment-proof.png)
+![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/service-proof.png)
+![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/ingress-proof.png)
+
+##### Gumball Running
+
+![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/gumball-running.png)
