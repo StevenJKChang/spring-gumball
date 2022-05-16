@@ -13,7 +13,7 @@
 ##### Service Accounts and Service Account Key
 
 ![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/service-accounts.png)
-![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/service-key.png)
+![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/service-account-key.png)
 
 ##### Github Action Secrets
 
