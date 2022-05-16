@@ -10,9 +10,12 @@
 
 ### CD Workflow (Part 2)
 
-##### Service Accounts and Service Account Key
+##### Service Accounts
 
 ![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/service-accounts.png)
+
+##### Service Account Key
+
 ![alt text](https://github.com/StevenJKChang/spring-gumball/blob/main/images/service-account-key.png)
 
 ##### Github Action Secrets
